@@ -1,0 +1,9 @@
+query Articles {
+  articles: getAllArticles {
+    id
+    title
+    author {
+      nickname
+    }
+  }
+}

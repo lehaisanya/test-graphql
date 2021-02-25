@@ -1,0 +1,8 @@
+query Articles {
+  users: getAllUsers {
+    id
+    nickname
+    name
+    articlesCount
+  }
+}

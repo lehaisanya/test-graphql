@@ -1,0 +1,10 @@
+query Articles($id: ID!) {
+  article: getArticleById(id: $id) {
+    id
+    title
+    text
+    author {
+      nickname
+    }
+  }
+}

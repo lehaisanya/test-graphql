@@ -1,0 +1,22 @@
+type User {
+    id: ID!
+    nickname: String!
+    name: String
+    age: Int!
+    articles: [Article!]
+    articlesCount: Int!
+}
+
+type Article {
+    id: ID!
+    title: String!
+    author: User!
+    text: String!
+}
+
+type Query {
+    getAllUsers: [User]!
+    getAllArticles: [Article]!
+    getUserByNickname(nickname: String!): User!
+    getArticleById(id: ID!): Article!
+}
