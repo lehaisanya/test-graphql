@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Andrey Bo4arov",
+        "age": 24,
+        "nickname": "andrea"
+    },
+    {
+        "id": 2,
+        "name": "Arab Arab",
+        "age": 28,
+        "nickname": "arab"
+    },
+    {
+        "id": 3,
+        "name": "Alexey Bereg",
+        "age": 18,
+        "nickname": "alex"
+    },
+    {
+        "id": 4,
+        "name": "Stariy Ded",
+        "age": 43,
+        "nickname": "ded"
+    }
+]
